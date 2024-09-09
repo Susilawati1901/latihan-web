@@ -1,0 +1,129 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  @font-face {
+    font-family: 'CANDY';
+    src: url(CANDY___.otf);
+  }  
+    
+    body{
+        background-color: #c0a38c;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+    }
+    
+    .header{
+        background:#9b806c;
+        padding: 10px;
+    }
+    .navbar{
+        background:#6d452e;
+        margin: 0;
+        padding: 20px 30px;
+        list-style: justify;
+        gap: 20px;
+    }
+    .logo{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'CANDY';
+        text-decoration: none;
+        color: #0a0a0a;
+    }
+    .tombol {
+        display: none;
+        color: white;
+        font-size: 14px;
+    }
+    .tombol:hover{
+        cursor: pointer;
+    }
+
+    .menu{
+        margin: 0;
+        display: flex;
+        list-style: none;
+        padding: 0;
+       
+    }
+    .menu li{
+        padding-left: 0;
+        margin-right: 10px;
+    }
+    .menu li a{
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    h3{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white; 
+    font-size: 15px;
+    }
+
+    h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+   font-size: 30px;
+    }
+    .middle{
+        width: 500px;
+        border: 1px solid #fffefe;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+    }
+    .middle img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .middle a{
+        font-weight: Bold;
+    }
+
+    .visi-Siomay-Krucuk, .Misi-Siomay-Krucuk, .Cerita-Kami{
+        padding: 20px;
+        margin: 10px 50px;
+        align-items: center;
+    }
+    .Misi-Siomay-Krucuk ul li{
+        list-style-type: none;
+    }
+    .footer{
+        clear: both;
+        text-align: center;
+        border: 1px solid #615e5e;
+        padding: 15px;
+        background: #6d452e;
+    }
+    /*css responsive*/
+    @media only screen and (max-width: 480px){
+        .header{
+            background:#9b806c;
+            padding: 10px;
+        }
+        .navbar{
+            background:#6d452e;
+            margin: 0;
+            padding: 20px 30px;
+            list-style: justify;
+            gap: 20px;
+        }
+        .menu{
+            display:  block;
+            padding: 10px;
+        }
+        img{
+            width: 200px;
+        }
+        .footer{
+            clear: both;
+            text-align: center;
+            border: 1px solid #615e5e;
+            padding: 15px;
+            background: #6d452e;
+        }
+        }
+        /* @media only screen and (max-width: 480px){
